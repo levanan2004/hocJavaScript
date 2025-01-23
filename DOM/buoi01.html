@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- 
+    câu 1. Làm cách nào để truy cập phần tử có id="myDiv" trong DOM? Viết đoạn mã JavaScript thực hiện điều đó.
+        -->
+    <h1 style="color: red;">Đây là câu 1</h1>
+    <div id="myDiv">1. Đây là đáp án của câu 1</div>
+    <br>
+
+    <!-- Câu 2. Viết code để thay đổi văn bản của thẻ <h1> có nội dung "Hello World" thành "Welcome to JavaScript DOM". -->
+    <h1 style="color: red;">Đây là câu 2</h1>
+    <h1>Hello world</h1>
+    <button onclick={changeText()}>câu 2</button>
+    <br>
+
+    <!-- câu 3.  Làm thế nào để thay đổi thuộc tính src của một thẻ <img>? -->
+    <h1 style="color: red;">Đây là câu 3</h1>
+    <img id="idImage"
+        src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="ảnh đẹp" width="300" />
+    <br>
+    <button onclick={changeImage()}>câu 3</button>
+    <br>
+
+    <!-- 4. Viết code để thêm nội dung "Click vào đây!" vào bên trong một thẻ <p> có id="myParagraph".-->
+    <h1 style="color: red;">Đây là câu 4</h1>
+    <p id="myParagraph"></p>
+    <button onclick={addContent()}>câu 4</button>
+    <br>
+
+    <!-- 5. Làm thế nào để thay đổi màu nền của một phần tử bằng JavaScript? -->
+    <h1 style="color: red;">Đây là câu 5</h1>
+    <h2 style="color: blue;" onclick="changeColor()">Đổi màu thẻ h2 từ blue -> green (click vào đây!)</h2>
+    <br>
+
+    <!-- Script -->
+    <script src="./buoi01.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- 
+    câu 1. Viết một hàm để hiển thị một thông báo "Bạn vừa nhấn vào nút!" khi người dùng click vào một nút.-->
+    <h1 style="color: green;">Đây là câu 1</h1>
+    <button onclick={notification()}>Click vào đây!</button>
+    <br>
+
+    <!-- câu 2. Tạo một thẻ <input> và sử dụng sự kiện oninput để hiển thị nội dung mà người dùng nhập vào trong một thẻ <p>.-->
+    <h1 style="color: green;">Đây là câu 2</h1>
+    <input type="text" id="idInput" placeholder="Nhập thông tin" />
+    <p id="output">Thông Tin: </p>
+    <button onclick={displayInput()}>Click vào đây!</button>
+    <br>
+
+    <!-- câu 3. Viết code để khi di chuột qua một thẻ <div>, màu nền của nó sẽ chuyển sang màu xanh, và trở về màu trắng khi chuột rời đi.-->
+    <h1 style="color: green;">Đây là câu 3</h1>
+    <div id="hover-div" style="padding: 10px; background-color: white; width: 150px;" onmouseover="mouseHover()"
+        onmouseout="mouseUnHover()">
+        câu 3: hover vào background từ trắng -> xanh -> trắng khi hết hover
+    </div>
+    <br>
+
+    <!-- câu 4. Sử dụng sự kiện ondblclick để thay đổi văn bản của một thẻ <h2> khi nhấp đúp vào nó.-->
+    <h1 style="color: green;">Đây là câu 4</h1>
+    <h2 id="doubleClick" ondblclick="doubleClickH2()">nội dung ban đầu</h2>
+
+    <!-- Script -->
+    <script src="./buoi02.js"></script>
+</body>
+
+</html>
