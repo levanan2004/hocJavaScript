@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- câu 1. Làm cách nào để truy cập phần tử cha (parentNode) của một thẻ <span>? -->
+    <h1 style="color: purple;">Đây là câu 1</h1>
+    <div id="parentDiv">
+        <div>
+            Đây là một đoạn văn có <span id="mySpan">thẻ span</span>.
+        </div>
+    </div>
+
+    <button id="getParentButton">Truy cập phần tử cha</button>
+    <br>
+
+    <!-- câu 2. Viết code để duyệt qua tất cả các phần tử con (childNodes) của một thẻ <ul> và in nội dung của từng phần tử ra console. -->
+    <h1 style="color: purple;">Đây là câu 2</h1>
+    <ul id="myList">
+        <li>Đây là li 1</li>
+        <li>Đây là li 2</li>
+        <li>Đây là li 3</li>
+        <li>Đây là li 4</li>
+        <li>Đây là li 5</li>
+    </ul>
+    <button id="printButton">In nội dung phần tử con</button>
+    <script src="../js/buoi05.js"></script>
+</body>
+
+</html>

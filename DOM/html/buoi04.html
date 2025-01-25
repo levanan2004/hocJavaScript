@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Câu 1 */
+        .active {
+            background-color: lightblue;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #myDiv {
+            background-color: gray;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Câu 2 */
+        .highlight {
+            background-color: lightblue;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #myDiv2 {
+            background-color: gray;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Câu 3 */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- câu 1. Viết code để thêm lớp CSS active vào một thẻ <div> khi nhấn nút -->
+    <h1 style="color: darkcyan;">Đây là câu 1</h1>
+    <div id="myDiv">Đây là một thẻ div</div>
+    <button id="myButton">Thêm lớp active</button>
+    <br>
+
+    <!-- câu 2. Làm thế nào để bật/tắt (toggle) lớp CSS highlight của một thẻ <p> mỗi khi người dùng nhấn nút "Đổi màu"? -->
+    <h1 style="color: darkcyan;">Đây là câu 2</h1>
+    <div id="myDiv2">Đây là một thẻ div</div>
+    <button id="myButton2">Thêm lớp active</button>
+    <br>
+
+    <!-- câu 2. Viết code để kiểm tra xem một phần tử có lớp CSS hidden hay không -->
+    <h1 style="color: darkcyan;">Đây là câu 3</h1>
+    <div id="myDiv3" class="hidden">Nội dung của thẻ div này đang bị ẩn.</div>
+    <button id="myButton3">Click vào!</button>
+    <script src="../js/buoi04.js"></script>
+</body>
+
+</html>

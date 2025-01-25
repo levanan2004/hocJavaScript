@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- câu 1. Viết một đoạn mã để thêm một phần tử <li> mới vào danh sách <ul> mỗi khi nhấn nút "Thêm". -->
+    <h1 style="color: blue;">Đây là câu 1</h1>
+    <h2>Món ngon mỗi ngày:</h2>
+    <ul id="idUL">
+        <li>Bò xào xã ớt</li>
+    </ul>
+    <button onclick="AddLi()">Thêm</button>
+    <br>
+
+    <!-- 2. Viết code để xóa phần tử <li> cuối cùng trong danh sách <ul> khi nhấn nút "Xóa". -->
+    <h1 style="color: blue;">Đây là câu 2</h1>
+    <h2>Món ngon mỗi ngày:</h2>
+    <ul id="idListItem">
+        <li>Bò xào xã ớt</li>
+        <li>Vịt hấp chao</li>
+        <li>Gà nướng mật ong</li>
+        <li>Bánh hỏi heo quay</li>
+    </ul>
+    <button onclick="RemoveLi()">Xóa</button>
+    <br>
+
+    <!-- 3. Làm thế nào để thay thế một phần tử <p> bằng một thẻ <h3> có nội dung "Đã thay thế!"? -->
+    <h1 style="color: blue;">Đây là câu 3</h1>
+    <p id="theP">đang là thẻ p và chưa thay thế</p>
+    <button onclick="replaceElement()">Thay thế</button>
+    <script src="../js/buoi03.js"></script>
+</body>
+
+</html>
